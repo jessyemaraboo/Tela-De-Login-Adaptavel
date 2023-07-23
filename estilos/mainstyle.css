@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;1,400&display=swap');
+:root{
+  --font1:'Kanit', sans-serif;
+  --color1: #D92DEB;
+  --color2:#6D0EC7;
+  --color3:#3821DC;
+  --color4:#0C3EC7;
+  --color5:
+}
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: var(--font1);
+  box-sizing: border-box;
+}
+html{
+ height: 100vh;
+ width: 100vw; 
+ background: #0C3EC7 url(/imagens/geometric-gbf6b153d6_1280.jpg) no-repeat;
+ background-size: cover;
+ background-position: left center;
+ 
+}
+main{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+section#login{
+  background-color: #27A3E6;
+  background-position: center top;
+  width: 295px;
+  height: 515px;
+  border-radius: 15px;
+ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.099);
+
+  transition: width .3s, height 0.3s;
+}
+section#login div#mainImg{
+  display: block;
+  background: #0C3EC7 url(../imagens/blue-gem.jpg) no-repeat;
+  height: 200px;
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
+  
+}
+section#login div#form{
+  display: block;
+  padding: 10px;
+}
+div#form h1{
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.201);
+  color: antiquewhite;
+}
+div#form p{
+  font-size: 13.9px;
+  margin: 3px 3px 5px 3px;
+  line-height: 16px;
+  text-align: center;
+}
+.material-symbols-outlined{
+  color: #3721dc;
+  margin: 4px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.207);
+  display: inline;
+}
+form div.campo{
+  background-color: #0c3ec748;
+  border-radius: 10px;
+  margin: 4px;
+  width: 100%;
+  height: 40px;
+  
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.137);
+}
+.campo i{
+  color: var(--color4);
+  background-color: #ffff;
+  border-radius: 10px 0px 0px 10px;
+  font-size: 1.5em;
+  width: 39px;
+  padding: 6px 3px 3px 3px;
+  height: 90.2%;
+  text-align: center;
+  margin: 1px 0px 0px 2px;
+  transform: translateY(1px);
+
+}
+div.campo input{
+  border-radius: 0px 10px 10px 0px;
+  margin: -3px;
+  padding: 1px 1px 1px 8px;
+  outline: none;
+  border: none;
+  /*box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.207);*/
+  width: calc(100% - 45px);
+  height: 90%;
+  transform: translateY(-6.3px);
+}
+.campo label{
+  font-size: 12px;
+  padding-left: 3px;
+  display: none;
+  
+}
+form input[type= submit]{
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #3821DC;
+  color: aliceblue;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  
+}
+form input[type= submit]:hover{
+  background-color: #3721dcce;
+  
+}
+
+form input[type=checkbox]{
+  margin: 5px;
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.222);
+  cursor: pointer;
+}
+
+form label.chk{
+  font-size: 13px;
+  color: antiquewhite;
+  text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.276);
+  cursor: pointer;
+}
+
+form a.btn{
+  color: var(--color4);
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffff;
+  margin: 4px;
+}
+form a.btn i{
+  font-size: 14px;
+  color: var(--color2);
+}
+form a.btn:hover{
+  
+  color: #6D0EC7;
+}

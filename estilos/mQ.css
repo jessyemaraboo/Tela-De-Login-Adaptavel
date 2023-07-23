@@ -1,0 +1,59 @@
+
+@media screen and (min-width: 650px) and (max-width: 992px) {
+  section#login{
+    width: 90vw;
+    height: 80vh;
+  }
+  section#login div#mainImg{
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-position: center center;
+    border-radius: 15px 0px 0px 15px;
+  }
+  section#login div#form{
+    float: right;
+    background-color: var(--color5);
+    height: 100%;
+    width: 60%;
+    border-radius: 0px 15px 15px 0px;
+  }
+  .campo input{
+    border-radius: 5px;
+    padding: 3px 5px 3px 7px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.207);
+    margin-bottom: 5px;
+    width: 75%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+  section#login{
+    width: 98vw;
+    height: 50vh;
+  }
+  section#login div#mainImg{
+    float: right;
+    width: 30%;
+    height: 100%;
+    background-position: center center;
+    border-radius: 0px 15px 15px 0px;
+  }
+  section#login div#form{
+    float: right;
+    background-color: var(--color5);
+    height: 100%;
+    width: 70%;
+    border-radius: 15px 0px 0px 15px;
+  }
+  .campo input{
+    border-radius: 5px;
+    padding: 3px 5px 3px 7px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.207);
+    margin-bottom: 5px;
+    width: 87%;
+  }
+}
